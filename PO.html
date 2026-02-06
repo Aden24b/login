@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background: radial-gradient(circle at top, #f80707, #02214c);
+    color: #ffffff;
+    min-height: 100vh;
+}
+.navbar {
+    height: 70px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+
+.navbar nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #e29d13;
+}
+
+.hero {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #d4b16a;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #bdbdbd;
+    margin-bottom: 30px;
+}
+.btn {
+    padding: 12px 28px;
+    background: #d4b16a;
+    color: #080808;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #c3a15a;
+    transform: translateY(-2px);
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Abhishek</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hi, I’m <span>Abhishek</span></h1>
+        <p> with some programing knowledge</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+</body>
+</html>
